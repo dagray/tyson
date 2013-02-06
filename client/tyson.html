@@ -1,0 +1,20 @@
+<head>
+  <title>{{title}}</title>
+</head>
+
+<body>
+    {{>header}}
+    {{>page}}
+    {{>footer}}
+</body>
+
+<template name="page">
+  {{>pageBody}}
+</template>
+
+<template name="pageBody">
+    {{# each contents }}  
+        {{{ render }}}
+    {{/ each }}
+</template>
+
