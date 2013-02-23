@@ -7,3 +7,7 @@ autopublish
 insecure
 preserve-inputs
 backbone
+<<<<<<< HEAD
+=======
+underscore
+>>>>>>> jbm/master
